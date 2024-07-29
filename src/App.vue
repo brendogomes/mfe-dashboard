@@ -1,7 +1,7 @@
 <template>
   <HelloWorld msg="Welcome to Your Vue.js App"/>
   
-  <my-component first="FUNCIONOU"/>
+  <web-button></web-button>
 </template>
 
 <script>

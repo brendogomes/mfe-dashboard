@@ -20,9 +20,9 @@ module.exports = defineConfig({
       .loader('vue-loader')
       .tap(options => {
         options.compilerOptions = {
-          isCustomElement: tag => tag.startsWith('my-')
+          isCustomElement: tag => tag.startsWith('web-')
         };
         return options;
       });
-  },
+  }
 });
